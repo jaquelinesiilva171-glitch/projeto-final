@@ -1,0 +1,18 @@
+
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+}
+[data-theme="dark"] {
+  --bg: #000000;
+  --text: #ffffff;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+*:focus {
+  outline: 3px solid #0099ff;
+  outline-offset: 4px;
+}
